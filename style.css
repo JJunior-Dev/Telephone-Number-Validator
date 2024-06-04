@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d59ff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 100%;
+    height: 25px;
+    background-color: black;
+}
+
+.camera {
+    width: 8px;
+    height: 8px;
+    background-color: #DFDFE2;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.phone {
+    width: 250px;
+    height: 450px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 20px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DFDFE2;
+}
+
+input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#results-div {
+    overflow-y: auto;
+    height: 290px;
+    width: 100%;
+}
+
+#buttons {
+    background-color: black;
+    width: 100%;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 10px 0;
+    background-image: linear-gradient(#ffffff, #928d86);
+    border-color: #ffffff;
+    border-width: 3px;
+    font-weight: bold;
+}
+
+#results-div {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    padding: 5px;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
